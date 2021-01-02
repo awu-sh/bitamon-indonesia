@@ -1,0 +1,275 @@
+@charset "UTF-8";
+html, body {
+  background-color: #0a2755;
+}
+
+body {
+  font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  -webkit-touch-callout: none;
+}
+
+/*==  ==*/
+.container {
+  width: 100%;
+  overflow: hidden;
+  min-width: 768px;
+}
+@media (min-width: 769px) {
+  .container {
+    min-width: 1280px;
+  }
+}
+
+.inner {
+  margin: 0 auto;
+  position: relative;
+}
+@media (min-width: 769px) {
+  .inner {
+    width: 1200px;
+  }
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  z-index: 11;
+}
+#footer .inner {
+  width: 1240px;
+  padding: 20px;
+}
+#footer .inner .link {
+  padding-left: 25px;
+  font-size: 18px;
+  color: #484848;
+  margin-bottom: 15px;
+}
+#footer .inner .left {
+  display: inline-block;
+  vertical-align: middle;
+}
+#footer .inner .right {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+#footer .inner .copyright {
+  width: 710px;
+  color: #484848;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+#top header {
+  background-image: url(http://www.cs.furyu.jp/doraemon2021/images/header_bgtop.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+}
+#top header .inner {
+  height: 140px;
+}
+#top header .inner .logo_switch {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+}
+@media (min-width: 769px) {
+  #top header .inner .logo_switch {
+    left: 0;
+  }
+}
+#top header .inner .logo_furyu {
+  position: absolute;
+  right: 30px;
+  bottom: 32px;
+}
+@media (min-width: 769px) {
+  #top header .inner .logo_furyu {
+    right: 0;
+  }
+}
+#top #main-visual {
+  background-image: url(http://www.cs.furyu.jp/doraemon2021/images/kv_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top -137px;
+}
+@media (min-width: 769px) {
+  #top #main-visual {
+    background-position: center top -143px;
+  }
+}
+#top #main-visual .inner {
+  height: 1276px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner {
+    height: 1230px;
+  }
+}
+#top #main-visual .inner h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  top: 869px;
+  width: 462px;
+  z-index: 10;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner h1 {
+    top: 831px;
+    width: 460px;
+  }
+}
+#top #main-visual .inner h1 img {
+  width: 100%;
+  height: auto;
+}
+#top #main-visual .inner .catch {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -76px;
+  width: 524px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .catch {
+    top: -92px;
+  }
+}
+#top #main-visual .inner .chara {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+}
+#top #main-visual .inner .chara.doraemon {
+  left: -158px;
+  top: -15px;
+  z-index: 5;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.doraemon {
+    left: -138px;
+    top: -38px;
+  }
+}
+#top #main-visual .inner .chara.nobita {
+  left: -590px;
+  top: -476px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.nobita {
+    left: -768px;
+    top: -433px;
+  }
+}
+#top #main-visual .inner .chara.suneo {
+  left: 462px;
+  top: 65px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.suneo {
+    left: 619px;
+    top: 58px;
+  }
+}
+#top #main-visual .inner .chara.gaian {
+  left: 453px;
+  top: -449px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.gaian {
+    left: 601px;
+    top: -448px;
+  }
+}
+#top #main-visual .inner .chara.locoloco {
+  left: 474px;
+  top: 504px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.locoloco {
+    left: 637px;
+    top: 509px;
+  }
+}
+#top #main-visual .inner .chara.shizuka {
+  top: -535px;
+  left: 18px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.shizuka {
+    top: -515px;
+    left: 20px;
+  }
+}
+#top #main-visual .inner .chara.hapi {
+  top: 327px;
+  left: -557px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.hapi {
+    top: 419px;
+    left: -664px;
+  }
+}
+#top #contents {
+  background-image: url(http://www.cs.furyu.jp/doraemon2021/images/contents_bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  box-sizing: border-box;
+  width: 100%;
+  height: 694px;
+  padding: 130px 0 0 0;
+  position: relative;
+}
+#top #contents .spec {
+  background-image: url(http://www.cs.furyu.jp/doraemon2021/images/spec.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: 224px;
+  position: absolute;
+  margin: auto;
+  top: -125px;
+  left: 0;
+  right: 0;
+}
+#top #contents .bnr_01 {
+  position: relative;
+  margin: 0 auto 18px auto;
+  width: 505px;
+}
+#top #contents .bnr_01 .bnr_001 {
+  margin-right: 5px;
+}
+#top #contents .bnr_02 {
+  position: relative;
+  margin: 0 auto 38px auto;
+  width: 320px;
+}
+#top #contents .bnr_02 .bnr_corocoro {
+  margin-right: 10px;
+}
+#top #contents .sns_wrap {
+  text-align: center;
+}
+#top #contents .sns_wrap p {
+  margin-bottom: 10px;
+}
+#top #contents .sns_wrap ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 420px;
+}
