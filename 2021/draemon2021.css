@@ -1,0 +1,641 @@
+@charset "UTF-8";
+html, body {
+  background-color: #0a2755;
+}
+
+body {
+  font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  -webkit-touch-callout: none;
+}
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+.clearfix {
+  display: block;
+}
+
+/*=== loading ===*/
+#loading {
+  background-color: #0a2755;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+#loading img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#loading img.chara {
+  top: -91px;
+  left: -48px;
+  z-index: 10;
+}
+#loading img.txt {
+  top: 220px;
+  z-index: 10;
+}
+
+/*==  ==*/
+.container {
+  width: 100%;
+  overflow: hidden;
+  min-width: 768px;
+}
+
+.inner {
+  margin: 0 auto;
+  position: relative;
+}
+@media (min-width: 769px) {
+  .inner {
+    width: 1200px;
+  }
+}
+
+header {
+  background-image: url(../images/common/header_bgtop.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+}
+header .inner {
+  height: 140px;
+}
+header .inner .logo_switch {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+}
+@media (min-width: 769px) {
+  header .inner .logo_switch {
+    left: 0;
+  }
+}
+header .inner .logo_furyu {
+  position: absolute;
+  right: 30px;
+  bottom: 32px;
+}
+@media (min-width: 769px) {
+  header .inner .logo_furyu {
+    right: 0;
+  }
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  z-index: 11;
+}
+#footer .inner {
+  width: 1240px;
+  padding: 20px;
+}
+#footer .inner .link {
+  padding-left: 25px;
+  font-size: 18px;
+  color: #484848;
+  margin-bottom: 15px;
+}
+#footer .inner .left {
+  display: inline-block;
+  vertical-align: middle;
+}
+#footer .inner .right {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+#footer .inner .copyright {
+  width: 710px;
+  color: #484848;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.footer_img {
+  background-image: url(../images/common/footer_img.png);
+  background-position: center;
+  width: 100%;
+  height: 42px;
+}
+
+nav {
+  background-image: url(../images/common/gnavi_bg.png);
+  background-size: cover;
+  box-sizing: border-box;
+  width: 657px;
+  height: 155px;
+  position: fixed;
+  z-index: 10;
+  margin: auto;
+  padding-top: 38px;
+  left: 0;
+  right: 0;
+  bottom: -200px;
+}
+nav ul {
+  font-size: 0;
+  width: 450px;
+  margin: 0 auto;
+}
+nav ul li {
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 50%;
+  text-align: center;
+}
+nav ul li a img {
+  position: relative;
+}
+nav ul li a:hover img {
+  top: 3px;
+}
+nav ul li:last-child {
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/*=== TOP ===*/
+@media (min-width: 769px) {
+  #top .container {
+    min-width: 1280px;
+  }
+}
+#top #main-visual {
+  background-image: url(../images/top/kv_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top -137px;
+}
+@media (min-width: 769px) {
+  #top #main-visual {
+    background-position: center top -143px;
+  }
+}
+#top #main-visual .inner {
+  height: 1276px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner {
+    height: 1230px;
+  }
+}
+#top #main-visual .inner h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  top: 869px;
+  width: 462px;
+  z-index: 10;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner h1 {
+    top: 831px;
+    width: 460px;
+  }
+}
+#top #main-visual .inner h1 img {
+  width: 100%;
+  height: auto;
+}
+#top #main-visual .inner .catch {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -76px;
+  width: 524px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .catch {
+    top: -92px;
+  }
+}
+#top #main-visual .inner .chara {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+}
+#top #main-visual .inner .chara.doraemon {
+  left: -158px;
+  top: -15px;
+  z-index: 5;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.doraemon {
+    left: -138px;
+    top: -38px;
+  }
+}
+#top #main-visual .inner .chara.nobita {
+  left: -590px;
+  top: -476px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.nobita {
+    left: -768px;
+    top: -433px;
+  }
+}
+#top #main-visual .inner .chara.suneo {
+  left: 462px;
+  top: 65px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.suneo {
+    left: 619px;
+    top: 58px;
+  }
+}
+#top #main-visual .inner .chara.gaian {
+  left: 453px;
+  top: -449px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.gaian {
+    left: 601px;
+    top: -448px;
+  }
+}
+#top #main-visual .inner .chara.locoloco {
+  left: 474px;
+  top: 504px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.locoloco {
+    left: 637px;
+    top: 509px;
+  }
+}
+#top #main-visual .inner .chara.shizuka {
+  top: -535px;
+  left: 18px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.shizuka {
+    top: -515px;
+    left: 20px;
+  }
+}
+#top #main-visual .inner .chara.hapi {
+  top: 327px;
+  left: -557px;
+}
+@media (min-width: 769px) {
+  #top #main-visual .inner .chara.hapi {
+    top: 419px;
+    left: -664px;
+  }
+}
+#top #contents {
+  background-image: url(../images/common/contents_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 120px 0 0 0;
+}
+#top #contents .bg_star {
+  background-image: url(../images/common/bg_star.png);
+  width: 100%;
+  height: 4158px;
+  position: absolute;
+  top: 0;
+}
+#top #contents section {
+  box-sizing: border-box;
+  position: relative;
+}
+#top #contents section h2 {
+  background-image: url(../images/top/title_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#top #contents section .inner {
+  width: 768px;
+  margin: 0 auto;
+}
+#top #contents section .inner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#top #contents section .inner .inner_chara {
+  position: absolute;
+  z-index: 5;
+}
+#top #contents section .inner .inner_chara.inner_chara_001 {
+  bottom: -158px;
+  left: 6px;
+}
+#top #contents section .inner .inner_chara.inner_chara_002 {
+  top: -114px;
+  right: -19px;
+}
+#top #contents section .inner .inner_chara.inner_chara_003 {
+  bottom: 30px;
+  left: 11px;
+}
+#top #contents section hr {
+  border: none;
+  background-image: url(../images/top/line_001.png);
+  width: 690px;
+  height: 18px;
+  margin: 0 auto;
+}
+#top #contents section .btn_more {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+#top #contents section .btn_more:hover {
+  background-image: url(../images/top/btn_more_h.png);
+}
+#top #contents section .btn_more:hover img {
+  opacity: 0;
+}
+#top #contents section p.caption {
+  color: #fff;
+  display: block;
+  width: 630px;
+  margin: 15px auto 15px auto;
+  font-size: 21px;
+  text-align: center;
+}
+#top #contents section#game {
+  background-image: url(../images/top/game_bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 3300px;
+  margin-bottom: 256px;
+}
+#top #contents section#game h2 {
+  position: absolute;
+  top: -167px;
+}
+#top #contents section#game .inner h3 {
+  text-align: center;
+  margin-bottom: 55px;
+}
+#top #contents section#game .inner .moviebox {
+  width: 680px;
+  margin: 0 auto;
+  position: relative;
+}
+#top #contents section#game .inner .moviebox .serif {
+  position: absolute;
+}
+#top #contents section#game .inner .moviebox .moviewrap {
+  background-image: url(../images/top/game_mov_bg.png);
+  width: 366px;
+  height: 204px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#top #contents section#game .inner .moviebox.moviebox_001 {
+  margin-bottom: 20px;
+}
+#top #contents section#game .inner .moviebox.moviebox_001 .serif {
+  top: -23px;
+  left: -10px;
+}
+#top #contents section#game .inner .moviebox.moviebox_001 .moviewrap {
+  float: right;
+}
+#top #contents section#game .inner .moviebox.moviebox_002 {
+  margin-bottom: 20px;
+}
+#top #contents section#game .inner .moviebox.moviebox_002 .serif {
+  top: -25px;
+  right: -10px;
+}
+#top #contents section#game .inner .moviebox.moviebox_002 .shockgun {
+  float: left;
+  position: relative;
+  top: 10px;
+  left: 22px;
+}
+#top #contents section#game .inner.inner_001 {
+  margin-bottom: 60px;
+  padding: 70px 0 0 0;
+}
+#top #contents section#game .inner.inner_002 {
+  margin: 84px auto 28px auto;
+}
+#top #contents section#game .inner.inner_003 {
+  margin: 60px auto 40px auto;
+}
+#top #contents section#game .inner.inner_003 p {
+  margin-bottom: -15px;
+}
+#top #contents section#game .inner .game_img_001 {
+  margin-bottom: 70px;
+}
+#top #contents section#story {
+  background-image: url(../images/top/story_bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-bottom: 270px;
+  padding: 70px 0 0 0;
+  height: 1100px;
+}
+#top #contents section#story h2 {
+  position: absolute;
+  top: -155px;
+}
+#top #contents section#story .inner h3 {
+  margin-bottom: 60px;
+}
+#top #contents section#story .inner .story_img_001 {
+  margin-bottom: 42px;
+}
+#top #contents .footer_link_area {
+  box-sizing: border-box;
+  background-image: url(../images/top/footer_link_bg.png);
+  background-position: center top;
+  height: 796px;
+  padding: 275px 0 0 0;
+  position: relative;
+}
+#top #contents .footer_link_area .spec {
+  position: absolute;
+  width: 724px;
+  height: 462px;
+  margin: auto;
+  top: -202px;
+  left: 10px;
+  right: 0;
+}
+#top #contents .footer_link_area .bnr_01 {
+  position: relative;
+  margin: 0 auto 18px auto;
+  width: 505px;
+}
+#top #contents .footer_link_area .bnr_01 .bnr_001 {
+  margin-right: 5px;
+}
+#top #contents .footer_link_area .bnr_02 {
+  position: relative;
+  margin: 0 auto 38px auto;
+  width: 320px;
+}
+#top #contents .footer_link_area .bnr_02 .bnr_corocoro {
+  margin-right: 10px;
+}
+#top #contents .footer_link_area .bnr_wrap a img {
+  position: relative;
+}
+#top #contents .footer_link_area .bnr_wrap a:hover img {
+  top: 3px;
+}
+#top #contents .footer_link_area .sns_wrap {
+  text-align: center;
+}
+#top #contents .footer_link_area .sns_wrap p {
+  margin-bottom: 10px;
+}
+#top #contents .footer_link_area .sns_wrap ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 420px;
+}
+#top #contents .footer_link_area .sns_wrap ul li a img {
+  position: relative;
+}
+#top #contents .footer_link_area .sns_wrap ul li a:hover img {
+  top: 3px;
+}
+
+#game .container {
+  background-image: url(../images/common/contents_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+#game .container .bg_star {
+  background-image: url(../images/common/bg_star.png);
+  width: 100%;
+  height: 4158px;
+  position: absolute;
+  top: 0;
+}
+#game .container #contents {
+  box-sizing: border-box;
+}
+#game .container #contents #movie_container {
+  background-image: url(../images/game/contents_bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  box-sizing: border-box;
+  height: 2728px;
+  margin-top: 184px;
+  margin-bottom: 60px;
+  padding-top: 60px;
+  position: relative;
+}
+#game .container #contents #movie_container h1 {
+  background-image: url(../images/game/title_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -157px;
+}
+#game .container #contents #movie_container .inner {
+  width: 768px;
+  margin: 0 auto;
+}
+#game .container #contents #movie_container .inner h2 {
+  margin-bottom: 40px;
+}
+#game .container #contents #movie_container .inner .lead {
+  margin-bottom: 65px;
+}
+#game .container #contents #movie_container .inner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#game .container #contents #movie_container .inner .movie_wrap {
+  margin-bottom: 10px;
+}
+#game .container #contents #movie_container .inner .movie_wrap h3 {
+  margin-bottom: 47px;
+}
+#game .container #contents #movie_container .inner .movie_wrap .movie_wrap_inner {
+  width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#game .container #contents #movie_container .inner .movie_wrap .movie_wrap_inner .movie_thumb {
+  margin-bottom: 30px;
+}
+#game .container #contents #movie_container .inner .movie_wrap .movie_wrap_inner .movie_thumb a {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  pointer-events: none;
+}
+#game .container #contents #movie_container .inner hr {
+  border: none;
+  background-image: url(../images/common/line_002.png);
+  width: 690px;
+  height: 18px;
+  margin: 0 auto 45px auto;
+}
+
+.modal_window {
+  box-sizing: border-box;
+  padding-top: 54px;
+}
+.modal_window .movie {
+  width: 680px;
+  margin: 0 auto 30px auto;
+}
+.modal_window p {
+  text-align: center;
+}
