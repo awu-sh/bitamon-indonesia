@@ -1,0 +1,237 @@
+
+<!DOCTYPE HTML> 
+<html lang="id"> 
+<head>
+<meta charset="UTF-8">
+<title> Film Doraemon: Petualangan Nobita Dibulan</title>
+
+<!--usetAgent-->
+<script type="text/javascript" src="https://doraeiga.com/2019/js/ua.js?181015"></script>
+
+<meta name="copyright" content="Copyright&copy; 藤子プロ・小学館・テレビ朝日・シンエイ・ADK 2019">
+<meta name="Description" content="月を舞台に、ドラえもんたちの大冒険がはじまる!!">
+<meta name="Keywords" lang="ja" content="映画,映画ドラえもん,ドラえもん,藤子・F・不二雄,藤子プロ,のび太の月面探査機,のび太,辻村深月,水田わさび,大原めぐみ,かかずゆみ,木村昴,関智一,皆川純子,広瀬アリス,中岡創一,ロッチ中岡,高橋茂雄,サバンナ高橋,柳楽優弥,吉田鋼太郎,平井大">
+<link href='https://doraeiga.com/eximages/2019/images_pre/apple-touch-icon.png' rel='icon' type='image/x-icon'/>
+
+<!--Twitter-->
+<meta name="twitter:card" content="summary_large_image">
+
+<!--Facebook-->
+<meta property="og:title" content="Doraemon the movie 2019">
+<meta property="og:type" content="movie">
+<meta property="og:description" content="Inilah kisah Petualangan nobita di bulan">
+<meta property="og:url" content="https://doraeiga-bitamon.blogspot.com">
+<meta property="og:image" content="https://doraeiga.com/eximages/2019/images_new/og.png">
+<meta name="theme-color" content="#01081b">
+<meta property="og:site_name" content="映画ドラえもん公式サイト">
+<meta property="fb:app_id" content="278934268857900">
+
+<!--jquery-->
+<script type="text/javascript" src="https://doraeiga.com/2019/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://doraeiga.com/2019/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="https://doraeiga.com/2019/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="https://doraeiga.com/2019/js/jquery.scrollmagic.min.js"></script>
+<script type="text/javascript" src="https://doraeiga.com/2019/common/index_new.js?190614"></script>
+<link rel="stylesheet" href="https://doraeiga.com/2019/common/index_new.css?190614" media="screen">
+
+<script type="text/javascript" src="https://doraeiga.com/2019/js/jquery.colorbox-min.js"></script>
+<link rel="stylesheet" href="https://doraeiga.com/2019/js/colorbox.css">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65521560-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+<body>
+
+<div id="op">
+<img id="loading" src="https://cdn.doraeiga.com/eximages/2019/images_pre/loading.png" alt=""/>
+<div id="mark">
+<img id="opStar1" src="https://cdn.doraeiga.com/eximages/2019/images_pre/op_star1.png" alt=""/>
+<img id="opStar2" src="https://cdn.doraeiga.com/eximages/2019/images_pre/op_star2.png" alt=""/>
+<img id="op2019" src="https://cdn.doraeiga.com/eximages/2019/images_pre/op_2019.png" alt=""/>
+<img id="opDora" src="https://cdn.doraeiga.com/eximages/2019/images_pre/op_dora.png" alt=""/>
+</div>
+</div>
+
+<div id="shareWrap">
+<a href="https://twitter.com/share?text=%e3%80%8e%e6%98%a0%e7%94%bb%e3%83%89%e3%83%a9%e3%81%88%e3%82%82%e3%82%93%20%e3%81%ae%e3%81%b3%e5%a4%aa%e3%81%ae%e6%9c%88%e9%9d%a2%e6%8e%a2%e6%9f%bb%e8%a8%98%e3%80%8f&hashtags=%e6%98%a0%e7%94%bb%e3%83%89%e3%83%a9&url=https://doraeiga-bitamon.blogspot.com/p/movie-2019.html" target="_blank" onclick="ga('send','event', 'sns', 'click', 'https://twitter.com');" class="fade"><img src="https://cdn.doraeiga.com/eximages/2019/images_pre/sns_tw.png" class="snsIcon" alt="Twitter"></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdoraeiga-bitamon.blogspot.com/p/movie-2019.html%2F2019%2F" target="_blank"  onclick="ga('send','event', 'sns', 'click', 'https://www.facebook.com'); class="fade"><img src="https://cdn.doraeiga.com/eximages/2019/images_pre/sns_fb.png" class="snsIcon" alt="Facebook"></a>
+<a href="https://line.me/R/msg/text/?https://doraeiga-bitamon.blogspot.com/movie-2019.html" target="_blank"  onclick="ga('send','event', 'sns', 'click', 'https://line.me'); class="fade"><img src="https://cdn.doraeiga.com/eximages/2019/images_pre/sns_ln.png" class="snsIcon" alt="LINE"></a>
+</div>
+
+<a href="#" class="ctsMove" id="ptWrap">
+<img src="https://cdn.doraeiga.com/eximages/2019/images_pre/pagetop.png" alt=""/>
+</a>
+
+<div id="tr4win">
+<div id="player4"></div>
+<img class="close" src="https://cdn.doraeiga.com/eximages/2019/images_pre/close.png" alt=""/>
+</div>
+
+<div id="midokorowin">
+<div id="player"></div>
+<img class="close" src="https://cdn.doraeiga.com/eximages/2019/images_pre/close.png" alt=""/>
+</div>
+
+<div id="popupBG"></div>
+
+<div class="popup" id="nyuWin">
+<div class="popupWrap">
+<img class="popupImg" src="https://cdn.doraeiga.com/eximages/2019/images_new/win_nyu.png" alt=""/>
+</div>
+<img class="close" src="https://cdn.doraeiga.com/eximages/2019/images_pre/close.png" alt=""/>
+</div>
+
+<img id="menu" src="https://cdn.doraeiga.com/eximages/2019/images_pre/menu.png" alt=""/>
+
+<div id="menuWin">
+<div id="menuWrap">
+<a href="#" class="ctsMove" id="menuTop"><!--
+<img src="https://cdn.doraeiga.com/eximages/2019/common/hbmenu_top.png" alt=""/></a>
+<a href="news/" id="menuNews"><img src="https://cdn.doraeiga.com/eximages/2019/common/hbmenu_news.png" alt=""/></a>
+<a href="story/" id="menuStory"><img src="https://cdn.doraeiga.com/eximages/2019/common/hbmenu_story.png" alt=""/></a>
+<a href="character/" id="menuChara"><img src="https://cdn.doraeiga.com/eximages/2019/common/hbmenu_chara.png" alt=""/></a>
+<a href="cast/" id="menuCast"><img src="https://cdn.doraeiga.com/eximages/2019/common/hbmenu_cast.png" alt=""/></a>
+<a href="staff/" id="menuStaff"><img src="https://cdn.doraeiga.com/eximages/2019/common/hbmenu_staff.png" alt=""/></a>
+<a href="screenplay/" id="menuScenario"><img src="https://cdn.doraeiga.com/eximages/2019/common/hbmenu_screenplay.png" alt=""/></a>
+<a href="song/" id="menuMusic"><img src="https://cdn.doraeiga.com/eximages/2019/common/hbmenu_music.png" alt=""/></a>
+<a href="trailer/" id="menuTrailer"><img src="https://cdn.doraeiga.com/eximages/2019/common/hbmenu_movie.png" alt=""/></a> -->
+<!--a href="https://theater.toho.co.jp/toho_theaterlist/doraemon2019.html" target="_blank" onclick="ga('send','event', 'btn', 'click', 'https://theater.toho.co.jp/toho_theaterlist/doraemon2019.html');" id="menuTheater"><img src="/eximages/2019/common/hbmenu_theater.png" alt=""/></a-->
+<img class="close" src="https://cdn.doraeiga.com/eximages/2019/images_pre/close.png" alt=""/>
+</div>
+</div>
+
+<!--メインビジュアル-->
+<div id="mainWrap">
+<div id="main">
+<img id="mainvisual1" class="mainvisual imgChange" src="https://cdn.doraeiga.com/eximages/2019/images_new/main_bg2_sp.jpg" alt=""/>
+<img id="mainvisual2" class="mainvisual imgChange" src="https://cdn.doraeiga.com/eximages/2019/images_new/main_bg1_sp.jpg" alt=""/>
+<img id="mainvisual3" class="mainvisual imgChange" src="https://cdn.doraeiga.com/eximages/2019/images_new/main_godato_sp.png" alt=""/>
+<img id="mainvisual5" class="mainvisual imgChange" src="https://cdn.doraeiga.com/eximages/2019/images_new/main_mobit_sp.png" alt=""/>
+<img id="mainvisual4" class="mainvisual imgChange" src="https://cdn.doraeiga.com/eximages/2019/images_new/main_4_sp.png" alt=""/>
+<img id="mainvisual6" class="mainvisual imgChange" src="https://cdn.doraeiga.com/eximages/2019/images_new/main_nobit_sp.png" alt=""/>
+<img id="mainvisual7" class="mainvisual imgChange" src="https://cdn.doraeiga.com/eximages/2019/images_new/main_dora_sp.png" alt=""/>
+<img id="mainFade" class="noSP" src="https://cdn.doraeiga.com/eximages/2019/images_new/main_fade_pc.png" alt=""/>
+<div id="mainMenuWrap">
+<!--
+<div id="btnmenuPC">
+<a class="fade" href="news/" id="popupNewsPC"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/menu_news_pc.png" alt="ニュース"/></a>
+<a class="fade" href="story/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/menu_story_pc.png" alt="ストーリー"/></a>
+<a class="fade" href="character/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/menu_chara_pc.png" alt="キャラクター"/></a>
+<a class="fade" href="cast/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/menu_cast_pc.png" alt="キャスト"/></a>
+<a class="fade" href="staff/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/menu_staff_pc.png" alt="スタッフ"/></a>
+<a class="fade" href="screenplay/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/menu_screenplay_pc.png" alt="脚本"/></a>
+<a class="fade" href="song/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/menu_music_pc.png" alt="音楽"/></a>
+<a class="fade" href="trailer/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/menu_trailer_pc.png" alt="予告編"/></a> --><!--
+<a class="fade" href="https://theater.toho.co.jp/toho_theaterlist/doraemon2019.html" target="_blank" onclick="ga('send','event', 'btn', 'click', 'https://theater.toho.co.jp/toho_theaterlist/doraemon2019.html');"><img src="/eximages/2019/images_new/menu_theater_pc.png" alt="シアター"/></a>
+</div> -->
+
+<div id="spBNR">
+<a class="fade" href="javascript:void(0);" id="popupNyu"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/mainbnr_nyu2.png" alt=""/></a>
+</div> 
+<!--
+<div id="tieupBNR_PC">
+<a class="fade" href="tweet/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/bnr_tweet2.png" alt=""/></a>
+<a class="fade" href="character/#charablock"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/bnr_chara.png" alt=""/></a>
+<a class="fade" href="javascript:void(0);" id="midokoroPC" onclick="ga('send','event', 'banner', 'click', 'midokoroGuide');"><img src="/eximages/2019/images_new/bnr_midokoro.png" alt=""/></a>
+</div> -->
+
+</div>
+
+<img id="mainCatch" src="https://cdn.doraeiga.com/eximages/2019/images_new/catch.png" alt=""/>
+<img id="mainLogo" class="imgChange" src="https://cdn.doraeiga.com/eximages/2019/images_new/logo3_sp.png" alt=""/>
+
+</div>
+
+<img id="mainBilling" class="imgChange" src="https://cdn.doraeiga.com/eximages/2019/images_new/billingnew_sp.png" alt=""/><!--
+
+<div id="udcastWrap">
+<a class="udcast fade" href="https://theater.toho.co.jp/toho_theaterlist/doraemon2019.html" target="_blank" onclick="ga('send','event', 'banner', 'click', 'https://theater.toho.co.jp/toho_theaterlist/doraemon2019.html');"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/udcast_voice.png" alt="本作品はUDCast方式による音声ガイドに対応しています"/></a>
+<a class="udcast fade" href="https://theater.toho.co.jp/toho_theaterlist/doraemon2019.html" target="_blank" onclick="ga('send','event', 'banner', 'click', 'https://theater.toho.co.jp/toho_theaterlist/doraemon2019.html');"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/udcast_subtitles.png" alt="本作品はUDCast方式による日本語字幕に対応しています"/></a>
+</div>
+-->
+</div><!--
+
+<div id="btnmenuSP">
+
+<a class="fade menuSP" href="news/" id="popupNewsSP"><img src="https://cdn.doraeiga.com/eximages/2019/common/menu_news_sp.png" alt="ニュース"/></a>
+<a class="fade menuSP" href="story/"><img src="https://cdn.doraeiga.com/eximages/2019/common/menu_story_sp.png" alt="ストーリー"/></a>
+<a class="fade menuSP" href="character/"><img src="https://cdn.doraeiga.com/eximages/2019/common/menu_chara_sp.png" alt="キャラクター"/></a>
+<a class="fade menuSP" href="cast/"><img src="https://cdn.doraeiga.com/eximages/2019/common/menu_cast_sp.png" alt="キャスト"/></a>
+<a class="fade menuSP" href="staff/"><img src="https://cdn.doraeiga.com/eximages/2019/common/menu_staff_sp.png" alt="スタッフ"/></a>
+<a class="fade menuSP" href="screenplay/"><img src="https://cdn.doraeiga.com/eximages/2019/common/menu_screenplay_sp.png" alt="脚本"/></a>
+<a class="fade menuSP" href="song/"><img src="https://cdn.doraeiga.com/eximages/2019/common/menu_music_sp.png" alt="音楽"/></a>
+<a class="fade menuSP" href="trailer/"><img src="https://cdn.doraeiga.com/eximages/2019/common/menu_trailer_sp.png" alt="予告編"/></a>
+<a class="fade menuSP" href="https://theater.toho.co.jp/toho_theaterlist/doraemon2019.html" target="_blank" onclick="ga('send','event', 'btn', 'click', 'https://theater.toho.co.jp/toho_theaterlist/doraemon2019.html');"><img src="/eximages/2019/common/menu_theater_sp.png" alt="劇場リスト"/></a>
+<span class="menuSP"><img src="/eximages/2019/images_new/menu_blank.png" alt=""/></span>
+<!--
+<div id="tieupBNRsp">
+<a class="fade" href="javascript:void(0);" id="midokoroSP" onclick="ga('send','event', 'banner', 'click', 'midokoroGuide');"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/bnr_midokoro.png" alt=""/></a>
+<a class="fade" href="character/#charablock"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/bnr_chara.png" alt=""/></a>
+<a class="fade" href="tweet/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/bnr_tweet2.png" alt=""/></a>
+<hr>
+<a class="fade" href="stardome/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/bnr_stardome.jpg" alt=""/></a>
+<a class="fade" href="quiz/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/bnr_quiz.jpg" alt=""/></a>
+<a class="fade" href="moon/"><img src="https://cdn.doraeiga.com/eximages/2019/images_pre/bnr_moon.png" alt=""/></a>
+<a class="fade" href="https://www.shogakukan.co.jp/pr/tsujimura/" target="_blank" onclick="ga('send','event', 'banner', 'click', 'https://www.shogakukan.co.jp/pr/tsujimura/');"><img src="https://cdn.doraeiga.com/eximages/2019/images_pre/bnr_tsujimura.gif" alt=""/></a>
+</div>-->
+
+</div>
+
+
+<!--footer-->
+<!--link--><!--
+<div class="ctsWrap" id="links">
+
+
+<div id="tieupBNR_PC2">
+<a class="fade" href="stardome/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/bnr_stardome.jpg" alt=""/></a>
+<a class="fade" href="quiz/"><img src="https://cdn.doraeiga.com/eximages/2019/images_new/bnr_quiz.jpg" alt=""/></a>
+<a class="fade" href="moon/"><img src="https://cdn.doraeiga.com/eximages/2019/images_pre/bnr_moon.png" alt=""/></a>
+<a class="fade" href="https://www.shogakukan.co.jp/pr/tsujimura/" target="_blank" onclick="ga('send','event', 'banner', 'click', 'https://www.shogakukan.co.jp/pr/tsujimura/');"><img src="https://cdn.doraeiga.com/eximages/2019/images_pre/bnr_tsujimura.gif" alt=""/></a>
+</div>
+-->
+<div id="ftrWrap2">
+<div id="officialSNSWrap">
+<!--<a class="fade" href="https://twitter.com/doraemonChannel" target="_blank" onclick="ga('send','event', 'banner', 'click', 'https://twitter.com/doraemonChannel');"><img src="/eximages/2019/images_pre/official_tw.png" alt=""/></a>-->
+<a class="fade" href="https://www.facebook.com/bitamon" target="_blank" onclick="ga('send','event', 'banner', 'click', 'https://www.facebook.com/bitamon');"><img src="https://cdn.doraeiga.com/eximages/2019/images_pre/official_fb.png" alt=""/></a>
+<!--<a class="fade" href="http://line.naver.jp/ti/p/%40fujiko-pro" target="_blank" onclick="ga('send','event', 'banner', 'click', 'http://line.naver.jp/ti/p/%40fujiko-pro');"><img src="/eximages/2019/images_pre/official_ln.png" alt=""/></a>-->
+<a class="fade" href="https://www.youtube.com/bitamon" target="_blank" onclick="ga('send','event', 'banner', 'click', 'https://www.youtube.com/bitamon');"><img src="https://cdn.doraeiga.com/eximages/2019/images_pre/official_yt.png" alt=""/></a>
+</div>
+</div>
+<img id="cr" src="https://cdn.doraeiga.com/eximages/2019/images_pre/cr.png" alt="©藤子プロ・小学館・テレビ朝日・シンエイ・ADK 2019">
+<!--
+<div id="footerLink">｜&nbsp;<a href="../use.html" target="_blank" onclick="ga('send','event', 'text', 'click', '../use.html');">ご利用にあたって</a>&nbsp;｜&nbsp;<a href="../link/" target="_blank" onclick="ga('send','event', 'text', 'click', '../link/');">過去の映画ドラえもんサイト</a>&nbsp;｜</div> -->
+<!--
+<div id="linksWrap">
+<a class="fade" href="https://dora-world.com" target="_blank" onclick="ga('send','event', 'banner', 'click', 'https://dora-world.com');"><img  class="flash"src="https://cdn.doraeiga.com/eximages/2019/images_pre/linkbnr_dch.png" width="245" height="75" alt="ドラえもん公式サイト「ドラえもんチャンネル」"/></a>
+<a class="fade" href="https://www.tv-asahi.co.jp/doraemon/" target="_blank" onclick="ga('send','event', 'banner', 'click', 'https://www.tv-asahi.co.jp/doraemon/');"><img class="flash" src="https://cdn.doraeiga.com/eximages/2019/images_pre/linkbnr_tvasahi.png" width="245" height="75" alt="テレビアニメ「ドラえもん」公式サイト"/></a>
+<a class="fade" href="http://fujiko-museum.com" target="_blank" onclick="ga('send','event', 'banner', 'click', 'http://fujiko-museum.com');"><img class="flash" src="https://cdn.doraeiga.com/eximages/2019/images_pre/linkbnr_fmuseum.png" width="245" height="75" alt="「川崎市 藤子・F・不二雄ミュージアム」公式サイト"/></a>
+<a class="fade" href="https://line.naver.jp/ti/p/%40fujiko-pro" target="_blank" onclick="ga('send','event', 'banner', 'click', 'https://line.naver.jp/ti/p/%40fujiko-pro');"><img class="flash" src="https://cdn.doraeiga.com/eximages/2019/images_pre/linkbnr_fujikoline.png" width="245" height="75" alt="藤子プロ 公式LINEアカウント"/></a>
+</div>
+</div>
+-->
+<script type="text/javascript" src="https://rawcdn.githack.com/awu-sh/Bitamon-Movie/575720df2ae1a66eb0d90e03e578b63c6368098e/op.js"></script>
+
+
+
+<script>
+var ua = navigator.userAgent;
+if(ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || (ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0) || (ua.indexOf('Android') > 0 && ua.indexOf('Opera Mini') > 0) || (ua.indexOf('Android') > 0 && ua.indexOf('Opera Mobile') > 0)) {
+document.write('<script type="text/javascript" src="common/op_sp.js?190228"><\/script>');
+}else{
+document.write('<script type="text/javascript" src="common/op.js?190228"><\/script>');
+}
+</script>
+
+</body>
+</html><!--
